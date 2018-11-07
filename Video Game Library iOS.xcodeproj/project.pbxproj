@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DF107A7F70A4D030DA3C0A6 /* Pods_Video_Game_Library_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2050496907B680460D46448D /* Pods_Video_Game_Library_iOS.framework */; };
+		BA6927B2218C8BBF0035691C /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6927B1218C8BBF0035691C /* LibraryCell.swift */; };
 		BA6B22462187568A007E74C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B22452187568A007E74C2 /* AppDelegate.swift */; };
 		BA6B22482187568A007E74C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B22472187568A007E74C2 /* ViewController.swift */; };
 		BA6B224B2187568A007E74C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6B22492187568A007E74C2 /* Main.storyboard */; };
 		BA6B224D2187568B007E74C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6B224C2187568B007E74C2 /* Assets.xcassets */; };
 		BA6B22502187568B007E74C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6B224E2187568B007E74C2 /* LaunchScreen.storyboard */; };
+		BA6B225821875CF2007E74C2 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B225721875CF2007E74C2 /* LibraryViewController.swift */; };
+		BA6B225A218777D9007E74C2 /* GameClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B2259218777D9007E74C2 /* GameClass.swift */; };
+		BA6B225C21877D32007E74C2 /* LibraryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B225B21877D32007E74C2 /* LibraryClass.swift */; };
+		BA6B225E2189DF8D007E74C2 /* AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6B225D2189DF8D007E74C2 /* AddGameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2050496907B680460D46448D /* Pods_Video_Game_Library_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Video_Game_Library_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90AC0696A88BCE43A5FE7ACB /* Pods-Video Game Library iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video Game Library iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Video Game Library iOS/Pods-Video Game Library iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6927B1218C8BBF0035691C /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
 		BA6B22422187568A007E74C2 /* Video Game Library iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Game Library iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA6B22452187568A007E74C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA6B22472187568A007E74C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,11 @@
 		BA6B224C2187568B007E74C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA6B224F2187568B007E74C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA6B22512187568B007E74C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6B225721875CF2007E74C2 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		BA6B2259218777D9007E74C2 /* GameClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameClass.swift; sourceTree = "<group>"; };
+		BA6B225B21877D32007E74C2 /* LibraryClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryClass.swift; sourceTree = "<group>"; };
+		BA6B225D2189DF8D007E74C2 /* AddGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameViewController.swift; sourceTree = "<group>"; };
+		DEC661503BAA3AB469CE7847 /* Pods-Video Game Library iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Video Game Library iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Video Game Library iOS/Pods-Video Game Library iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF107A7F70A4D030DA3C0A6 /* Pods_Video_Game_Library_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52FB4B3AD0EFE7F56D41B1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2050496907B680460D46448D /* Pods_Video_Game_Library_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B22E3608BA0CC874715A5D4F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90AC0696A88BCE43A5FE7ACB /* Pods-Video Game Library iOS.debug.xcconfig */,
+				DEC661503BAA3AB469CE7847 /* Pods-Video Game Library iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BA6B22392187568A007E74C2 = {
 			isa = PBXGroup;
 			children = (
 				BA6B22442187568A007E74C2 /* Video Game Library iOS */,
 				BA6B22432187568A007E74C2 /* Products */,
+				B22E3608BA0CC874715A5D4F /* Pods */,
+				52FB4B3AD0EFE7F56D41B1ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +90,11 @@
 			children = (
 				BA6B22452187568A007E74C2 /* AppDelegate.swift */,
 				BA6B22472187568A007E74C2 /* ViewController.swift */,
+				BA6B225721875CF2007E74C2 /* LibraryViewController.swift */,
+				BA6B2259218777D9007E74C2 /* GameClass.swift */,
+				BA6B225B21877D32007E74C2 /* LibraryClass.swift */,
+				BA6B225D2189DF8D007E74C2 /* AddGameViewController.swift */,
+				BA6927B1218C8BBF0035691C /* LibraryCell.swift */,
 				BA6B22492187568A007E74C2 /* Main.storyboard */,
 				BA6B224C2187568B007E74C2 /* Assets.xcassets */,
 				BA6B224E2187568B007E74C2 /* LaunchScreen.storyboard */,
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA6B22542187568B007E74C2 /* Build configuration list for PBXNativeTarget "Video Game Library iOS" */;
 			buildPhases = (
+				D8804E476B68FDF35E27C4BA /* [CP] Check Pods Manifest.lock */,
 				BA6B223E2187568A007E74C2 /* Sources */,
 				BA6B223F2187568A007E74C2 /* Frameworks */,
 				BA6B22402187568A007E74C2 /* Resources */,
+				D6E7539EC7E663DEC249978B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +171,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D6E7539EC7E663DEC249978B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Video Game Library iOS/Pods-Video Game Library iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DZNEmptyDataSet/DZNEmptyDataSet.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DZNEmptyDataSet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Video Game Library iOS/Pods-Video Game Library iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8804E476B68FDF35E27C4BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Video Game Library iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA6B223E2187568A007E74C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				BA6B22482187568A007E74C2 /* ViewController.swift in Sources */,
+				BA6927B2218C8BBF0035691C /* LibraryCell.swift in Sources */,
+				BA6B225821875CF2007E74C2 /* LibraryViewController.swift in Sources */,
+				BA6B225E2189DF8D007E74C2 /* AddGameViewController.swift in Sources */,
+				BA6B225C21877D32007E74C2 /* LibraryClass.swift in Sources */,
+				BA6B225A218777D9007E74C2 /* GameClass.swift in Sources */,
 				BA6B22462187568A007E74C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +369,7 @@
 		};
 		BA6B22552187568B007E74C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90AC0696A88BCE43A5FE7ACB /* Pods-Video Game Library iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +387,7 @@
 		};
 		BA6B22562187568B007E74C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC661503BAA3AB469CE7847 /* Pods-Video Game Library iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
